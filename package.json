@@ -1,0 +1,13 @@
+{
+  "name": "socket-io-adpater-server",
+  "version": "1.0.0",
+  "main": "server/socketio-server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node ./server/socketio-server.js",
+    "start": "node ./server/socketio-server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
